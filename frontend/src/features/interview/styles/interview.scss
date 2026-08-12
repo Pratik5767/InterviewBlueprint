@@ -1,15 +1,15 @@
 @use 'sass:color';
 
 // ── Shared Variables (mirrors home.scss theme) ────────────────────────────────
-$bg-page: #0d1117;
-$bg-card: #161b22;
-$bg-panel: #1c2230;
-$bg-input: #1e2535;
-$border-color: #2a3348;
-$text-primary: #e6edf3;
-$text-muted: #7d8590;
-$accent: #ff2d78;
-$font-stack: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$bg-page: #17121f;
+$bg-card: #211a2d;
+$bg-panel: #271f36;
+$bg-input: #241c33;
+$border-color: #3a3150;
+$text-primary: #f1eef7;
+$text-muted: #9c93b3;
+$accent: #2dd4bf;
+$font-stack: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
 // severity palette
 $severity-high: #ff4d4d;
@@ -41,7 +41,7 @@ $severity-low: #3fb950;
     margin: 0 auto;
     background-color: $bg-card;
     border: 1px solid $border-color;
-    border-radius: 1rem;
+    border-radius: 0.75rem;
     justify-content: space-between;
 }
 
