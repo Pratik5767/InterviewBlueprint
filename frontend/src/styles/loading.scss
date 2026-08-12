@@ -1,9 +1,9 @@
-$bg-page: #0d1117;
-$bg-card: #161b22;
-$border-color: #2a3348;
-$text-primary: #e6edf3;
-$text-muted: #7d8590;
-$accent: #ff2d78;
+$bg-page: #17121f;
+$bg-card: #211a2d;
+$border-color: #3a3150;
+$text-primary: #f1eef7;
+$text-muted: #9c93b3;
+$accent: #2dd4bf;
 
 .loading-overlay {
     position: fixed;
@@ -19,7 +19,8 @@ $accent: #ff2d78;
 .loading-card {
     background-color: $bg-card;
     border: 1px solid $border-color;
-    border-radius: 1rem;
+    border-left: 3px solid $accent;
+    border-radius: 0.5rem;
     padding: 2.5rem 3rem;
     display: flex;
     flex-direction: column;
@@ -50,10 +51,12 @@ $accent: #ff2d78;
 
 .loading-message {
     margin: 0;
-    font-size: 0.9rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
     font-weight: 500;
     color: $text-muted;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
 }
 
 @keyframes spin {
