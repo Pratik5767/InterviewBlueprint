@@ -1,7 +1,10 @@
-require('dotenv').config()
-const app = require('./src/app.js')
+const dns = require('dns')
 const connectToDB = require('./src/config/database.js')
+const app = require('./src/app.js')
+require('dotenv').config()
 
+
+dns.setServers(['1.1.1.1', '8.8.8.8'])
 
 connectToDB()
 
