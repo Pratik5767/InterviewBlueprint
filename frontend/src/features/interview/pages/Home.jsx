@@ -145,7 +145,7 @@ const Home = () => {
                             {
                                 reports.map(report => (
                                     <li key={report._id} className='report-item' onClick={() => navigate(`/interview/${report._id}`)}>
-                                        <h3>{report.title || 'Untitled Position'}</h3>
+                                        <h3 className='report-title'>{report.title || 'Untitled Position'}</h3>
 
                                         <p className='report-meta'>Generated on {new Date(report.createdAt).toLocaleDateString()}</p>
 
