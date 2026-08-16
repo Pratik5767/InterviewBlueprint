@@ -3,6 +3,7 @@ const { z } = require("zod");
 const { interviewReportPrompt, resumeGenerationPrompt } = require("../utils/prompts/interview.prompt")
 const { interviewReportJsonSchema, resumePdfJsonSchema } = require("../utils/schemas/interview.schema")
 const puppeteer = require("puppeteer")
+require('dotenv').config()
 
 
 const ai = new GoogleGenAI({
